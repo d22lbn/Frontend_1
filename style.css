@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    /*font-family: 'Roboto', sans-serif;*/
+    font-family: 'Source Sans Pro', sans-serif;
 
     font-size: 20px;
 }
@@ -28,8 +28,6 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: center;
 
     background-color: #fff;
-
-    border: 1px solid black;
 }
 
 .header-inner {
@@ -45,8 +43,6 @@ h1, h2, h3, h4, h5, h6 {
 
     overflow: hidden;
     position: relative;
-
-    border: 1px solid black;
 }
 
 .header-logo img {
@@ -59,8 +55,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header-nav {
-    width: 28%;
-    margin: 0 5% 0 20%;
+    width: 30%;
+    margin: 0 3% 0 30%;
 
     display: flex;
     align-items: center;
@@ -74,30 +70,37 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: space-between;
     align-items: center;
 
-    /*margin-left: 3.1%;*/
-    width: 33%;
-    height: 100%;
 
-    border: 1px solid black;
+    width: 29.2%;
+    height: 100%;
 }
 
 .phone-text {
-    width: 39.3%;
+    width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-
-    border: 1px solid black;
 
     font-weight: 700;
 }
 
 .phone-btn {
-    width: 50%;
+    width: 47%;
     height: 71.4%;
 
     font-size: 20px;
     font-weight: 600;
+    color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+
+    background: linear-gradient(90deg, rgba(53, 204, 121, 1), rgba(52, 125, 85, 0.65));
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 20px;
+    border: none;
 }
 
 
