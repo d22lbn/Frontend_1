@@ -65,6 +65,15 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 600;
 }
 
+.nav-item {
+    border-bottom: 0 solid #3F3D56;
+}
+
+.nav-item:hover {
+    border-bottom: 2px solid #3F3D56;
+    cursor: pointer;
+}
+
 .header-phone {
     display: flex;
     justify-content: space-between;
@@ -102,17 +111,3 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 20px;
     border: none;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
