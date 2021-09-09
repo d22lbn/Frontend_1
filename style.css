@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    /*font-family: 'Roboto', sans-serif;*/
+
+    font-size: 20px;
+}
+
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+
+/* ------------------------------- */
+/* ------------------------------- */
+
+
+.header {
+    width: 100%;
+    height: 56px;
+
+    display: flex;
+    justify-content: center;
+
+    background-color: #fff;
+
+    border: 1px solid black;
+}
+
+.header-inner {
+    width: 84.2%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.header-logo {
+    width: 7.8%;
+    height: 60%;
+
+    overflow: hidden;
+    position: relative;
+
+    border: 1px solid black;
+}
+
+.header-logo img {
+    width: 100%;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.header-nav {
+    width: 28%;
+    margin: 0 5% 0 20%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    font-weight: 600;
+}
+
+.header-phone {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    /*margin-left: 3.1%;*/
+    width: 33%;
+    height: 100%;
+
+    border: 1px solid black;
+}
+
+.phone-text {
+    width: 39.3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 1px solid black;
+
+    font-weight: 700;
+}
+
+.phone-btn {
+    width: 50%;
+    height: 71.4%;
+
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
