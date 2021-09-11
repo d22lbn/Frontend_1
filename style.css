@@ -3,6 +3,8 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
 
     font-size: 20px;
+
+    background-color: #FAFAFA;
 }
 
 *,
@@ -43,6 +45,8 @@ h1, h2, h3, h4, h5, h6 {
 
     overflow: hidden;
     position: relative;
+
+    top: -5%;
 }
 
 .header-logo img {
@@ -110,4 +114,84 @@ h1, h2, h3, h4, h5, h6 {
 
     border-radius: 20px;
     border: none;
+
+    cursor: pointer;
+    transition: background-color 0.1s linear;
 }
+
+.phone-btn:hover {
+    background: linear-gradient(90deg, rgba(65, 216, 133, 1), rgba(64, 137, 97, 0.65));
+}
+
+
+/* ------------------------------- */
+/* ------------------------------- */
+
+
+.intro {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    margin-top: 56px;
+
+    font-family: 'Open Sans', sans-serif;
+}
+
+.intro-inner {
+    width: 84.4%;
+}
+
+.intro-title {
+    font-size: 55px;
+    line-height: 24px;
+    font-weight: 700;
+}
+
+.intro-content {
+    display: flex;
+    width: 100%;
+}
+
+.intro-text {
+    margin-top: 130px;
+    width: 40%;
+}
+
+.intro-subtitle {
+    font-size: 40px;
+    line-height: 20px;
+    font-weight: 600;
+}
+
+.intro-subtitle span {
+    border-bottom: 3px solid #B4ABAB;
+    padding-bottom: 20px;
+}
+
+.intro-subtitle-text {
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 30px;
+
+    margin-top: 63px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
